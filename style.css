@@ -1,0 +1,71 @@
+body {
+    background-image: url(image/Skyline.gif);
+    font: 16px arial, sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: red;
+}
+
+.header {
+    padding-left: 30px;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: -10px;
+    margin-right: 20px;
+}
+
+.header a {
+    text-decoration: none;
+    color: aqua;
+    font-weight: bold;
+}
+
+.heade a:hover {
+color: red;
+background-color: aqua;
+padding: 10px;
+border-radius: 15px;
+}
+
+.banner {
+    height: 300px;
+    background-image: url(image/1999\ Nissan\ Skyline\ R34\ GTR\ Vspec\ 2_8\ 600PS\ -\ JM-Imports.jpeg);
+    background-position: 767px 380px;
+    border-top: 5px solid gray;
+    border-bottom: 5px solid gray;
+}
+
+.isi {
+    padding: 15px;
+    border-bottom: 5px solid gray;
+}
+
+.isi .penulis {
+margin-top: -15px;
+font-size: 11pt;
+}
+
+p {
+    font-size: 10pt;
+}
+
+.footer {
+    height: 40px;
+    background-color: blueviolet;
+    padding: 20pt;
+}
+
+.footer .copy {
+    text-align: center;
+    font-weight: bold;
+}
